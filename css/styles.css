@@ -1,6 +1,6 @@
-/*----------------------------------------------------------------------------
-    Generic
-----------------------------------------------------------------------------*/
+/*----------------------------------------------------
+GÉNÉRIQUE
+----------------------------------------------------*/
 
 html {
   box-sizing: border-box;
@@ -12,16 +12,63 @@ html {
   box-sizing: inherit;
 }
 
-/*------------------------------------------------------------------------------
-   Element - Base
-------------------------------------------------------------------------------*/
+/*----------------------------------------------------
+ÉLÉMENTS
+----------------------------------------------------*/
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #000;
 }
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+h1, h2, h3{
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+h1{ 
+  color: #FFF;
+  font-size: 50px;
+}
+
+h2{
+  color: #0E5EA1;
+  font-size: 36px;
+}
+
+h3{
+  color: #000;
+  font-size: 24px;
+}
+
+/*----------------------------------------------------
+COMPONENTS
+----------------------------------------------------*/
 
 .wrapper {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*HEADER*/
+.header{
+  background-color: #FFF;
+  color: #000;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*NAV*/
+
+/*HERO*/
+.hero .wrapper{
+  background-image: url(../images/montagnes_hero.jpg);
+  background-repeat: no-repeat;
 }
