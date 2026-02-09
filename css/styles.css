@@ -19,6 +19,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: #000;
+  background-color: #EEE;
 }
 
 a{
@@ -151,7 +152,6 @@ COMPONENTS
 /*Offre*/
 
 .offre{
-  background-color: #EEE;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -168,6 +168,9 @@ COMPONENTS
 
 .conteneur-offre p{
   line-height: 160%;
+  font-weight: normal;
+  color: #212121;
+  font-size: 18px;
 }
 
 .ski, .refuges, .saisons{
@@ -202,4 +205,23 @@ COMPONENTS
 .bouton-plus:hover{
   background-color: #0E5EA1;
   color: #FFF;
+}
+
+/*Bannière*/
+.banniere{
+  padding-bottom: 80px;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #000;
+  color: #FFF;
+
+  text-align: center;
+
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+  font-size: 16px;
+  font-weight: normal;
 }
