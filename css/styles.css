@@ -29,6 +29,7 @@ a{
 h1, h2, h3{
   font-family: "Dosis", sans-serif;
   font-weight: bold;
+  letter-spacing: 0;
 }
 
 h1{ 
@@ -65,10 +66,64 @@ COMPONENTS
   padding-bottom: 8px;
 }
 
+/*À RETRAVAILLER*/
+.header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 /*NAV*/
+.menu{
+  display: flex;
+  gap: 30px;
+
+  list-style-type: none;
+  text-transform: uppercase;
+
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+
+  padding: 0;
+  margin: 0;
+}
+
+.menu a{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border-radius: 5px;
+}
+
+.menu a:hover{
+  background-color: #0E5EA1;
+  color: #FFF;
+}
 
 /*HERO*/
-.hero .wrapper{
+.hero{
   background-image: url(../images/montagnes_hero.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 136px;
+  padding-top: 136px;
+}
+
+.hero .wrapper{
+  background-color: rgb(0, 0, 0, 0.5);
 }
