@@ -16,9 +16,9 @@ html {
    Element - Base
 ------------------------------------------------------------------------------*/
 
-/*body {
-  
-}*/
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .wrapper {
   max-width: 1280px;
