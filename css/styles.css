@@ -129,16 +129,16 @@ COMPONENTS
 /*HERO*/
 .hero{
   background-image: url(../images/montagnes_hero.jpg);
-  background-repeat: no-repeat;
+  background-position: bottom;
   background-size: cover;
+}
 
-  padding-bottom: 136px;
-  padding-top: 136px;
-
-  color: #FFF;
-
+.hero .wrapper{
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 100%;
 }
 
 .hero p{
@@ -149,6 +149,9 @@ COMPONENTS
 }
 
 .boite{
+  text-align: center;
+  color: #FFF;
+
   padding: 40px;
 
   border-radius: 10px;
@@ -163,7 +166,7 @@ COMPONENTS
   padding-bottom: 80px;
 }
 
-.conteneur-offre{
+.offre .conteneur-offre{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -175,7 +178,7 @@ COMPONENTS
   color: #212121;
 }
 
-.ski, .refuges, .saisons{
+.carte{
   display: flex;
   flex-direction: column;
   gap: 25px;
